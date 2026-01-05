@@ -1,12 +1,10 @@
-# Backend ignores
+
 contractor-management-backend/target
 contractor-management-backend/.idea
 contractor-management-backend/*.iml
 
-# Frontend ignores
 contractor-management-frontend/node_modules
 contractor-management-frontend/build
 
-# OS / IDE
 .DS_Store
 .idea
