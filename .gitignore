@@ -1,11 +1,12 @@
-# Backend
-backend/target
-backend/.idea
-backend/*.iml
+# Backend ignores
+contractor-management-backend/target
+contractor-management-backend/.idea
+contractor-management-backend/*.iml
 
-# Frontend
-frontend/node_modules
-frontend/build
+# Frontend ignores
+contractor-management-frontend/node_modules
+contractor-management-frontend/build
 
-# OS
+# OS / IDE
 .DS_Store
+.idea
