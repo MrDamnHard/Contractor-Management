@@ -30,7 +30,55 @@ In property management, maintenance tasks (plumbing, electrical repairs, general
 - 🎨 Plain CSS (clean, minimal UI)
 
 ---
+🚀 How to Run the Application
+📋 Prerequisites
+Java: version 17
 
+Node.js: v18+ recommended
+
+Database: PostgreSQL
+
+Version Control: Git
+
+1️⃣ Backend Setup
+Navigate to the backend directory and configure your database settings.
+
+Bash
+
+cd contractor-management-backend
+Configure Database: Open src/main/resources/application.properties and update with your PostgreSQL credentials:
+
+Properties
+
+spring.datasource.url=jdbc:postgresql://localhost:5432/contractor_db
+spring.datasource.username=your_username
+spring.datasource.password=your_password
+spring.jpa.hibernate.ddl-auto=update
+Launch Server:
+
+Bash
+
+./mvnw spring-boot:run
+🌐 Backend API: http://localhost:8080
+
+2️⃣ Frontend Setup
+Open a new terminal window and navigate to the frontend directory.
+
+Bash
+
+cd contractor-management-frontend
+Install & Start:
+
+Bash
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm start
+💻 Frontend Client: http://localhost:3000
+
+---
 ## 👥 User Roles
 
 ### 🧑‍💼 Agent (Landlord / Property Manager)
